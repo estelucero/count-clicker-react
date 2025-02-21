@@ -11,7 +11,7 @@ function App() {
     setNroClicks(nroClicks + 1);
   }
   const reiniciarContador = () => {
-    setNroClicks(0)
+    setNroClicks(0);
   }
   return (
     <div className='App'>
