@@ -12,11 +12,20 @@ html {
 }
 
 .react-logo-contenedor {
-  width: 20%;
+  width: 16%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .react-logo {
   width: 100%;
+}
+
+.contenedor-principal {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }

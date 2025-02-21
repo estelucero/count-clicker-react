@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --primary-color: rgb(0, 135, 158);
+    --primary-color-hover: rgb(2, 68, 79);
+    --secondary-color: rgb(255, 171, 91);
+    --secondary-color-hover: rgb(109, 71, 36);
+    /* Verde */
+    --text-color: rgb(255, 242, 219);
+    --background: rgb(0, 19, 55);
+}
+
+.boton-juego {
+    cursor: pointer;
+    margin-top: 5px;
+    width: 150px;
+    height: 120px;
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.boton-click {
+    background-color: var(--primary-color);
+}
+
+.boton-click:hover {
+    background-color: var(--primary-color-hover);
+}
+
+.boton-reiniciar {
+    background-color: var(--secondary-color);
+    height: 80px;
+}
+
+.boton-reiniciar:hover {
+    background-color: var(--secondary-color-hover);
+}
